@@ -16,4 +16,11 @@ add all dependecy
 11 multer
 12 nodemailer
 13 razorpay
-  
+
+******* Create model and database connection*********
+    i have connect the databse using mongodb Atlas 
+    i have used mongodb atlas test enviroment to store data in database
+    using mongoose , I have created user schema
+    in this schema i use
+    ** new mongoose.Schema({})  function to crate user function
+    
