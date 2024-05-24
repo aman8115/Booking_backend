@@ -24,3 +24,17 @@ add all dependecy
     in this schema i use
     ** new mongoose.Schema({})  function to crate user function
     
+    *** Add Send mail***
+    In this project i use nodemailer to send user email 
+    using  
+    
+    let tarnspoter = nodemailer.createTransport({
+        host:hostname,
+        port: prot number,
+        secure:false,
+        auth:{
+            user: username of mailtrap,
+            pass password of mailtrap:
+        }
+    } )
+
